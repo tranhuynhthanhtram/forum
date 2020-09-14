@@ -1,0 +1,304 @@
+
+header>h1{
+    text-align: center;
+    font-size: 75px;
+    color: red;
+    text-shadow: 3px 4px yellow;
+    padding: 0px;
+    margin-top: 50px;
+}
+
+.lentop img{
+    width: 50px;
+    height: 50px;
+}
+.lentop{
+    z-index: 10000;
+    position: fixed;
+    cursor: pointer;
+    bottom: 5%;
+    right: 5%;
+}
+
+
+
+
+
+#fixNav{
+    width: 100%;
+    height: 40px;
+    background-color: palegreen;
+    display: block;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.5); /*Đổ bóng cho menu*/
+    position: fixed; /*Cho menu cố định 1 vị trí với top và left*/
+    top: 0; /*Nằm trên cùng*/
+    left: 0; /*Nằm sát bên trái*/
+    z-index: 100000; /*Hiển thị lớp trên cùng*/
+    font-size: 25px;
+    margin: 5px;
+  }
+  /*#fixNav ul{
+    margin: PX;
+    padding: 10px;
+  }*/
+  #fixNav ul li{
+    list-style:none inside;
+    width: auto;
+    float: left;
+    line-height: 35px; /*Cho text canh giữa menu*/
+    color: #fff;
+    padding: 0;
+    margin-right:10px;
+    position: relative;
+  }
+  #fixNav ul li a{
+    text-transform: uppercase;
+    white-space: nowrap; /*Cho chữ trong menu không bị wrap*/
+    padding: 0 10px;
+    color: #fff;
+    display: block;
+    font-size: 0.8em;
+    text-decoration: none;
+  }
+  /*CSS Style cho Submenu*/
+  #fixNav ul li ul {
+    position: absolute;
+    width: auto;
+    display: none;
+    background-color: #252525;
+    border-bottom: 3px solid #0082bb;
+    padding-left: 5px;
+  }
+  
+  #fixNav ul li ul li{
+    display: block;
+    padding:0;
+    margin: 0;
+    float: none; /*Bỏ float cho li cấp thứ 2*/
+  }
+  /* Hover cho submenu */
+  #fixNav ul li:hover {
+    /* Hover thì li sẽ đổi màu*/
+    background-color: #252525;
+    padding: 0;
+  }
+  #fixNav ul li:hover ul{
+    /*Display ra submenu*/
+    display: block;
+  }
+
+section.GT{
+    text-align: center;
+    background-color: lightslategrey;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+div.button{
+    font-size: 30px;
+    margin-left: 60%;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 600px;
+    margin: 10px;
+  }
+.d-block{
+    display: block !important;
+}
+h2{
+    color: rgb(201, 135, 146);
+    font-size: 30px;
+    text-align: center;
+}
+h3{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(124, 55, 67);
+}
+section.AT{
+    display: flex;
+    font-size: 25px;
+    text-align: center;
+    line-height: 5px;
+}
+
+div.DP{
+    width: 25%;
+    padding: 20px;
+    margin: 0.75%;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    float: left;
+}
+
+div.DP a{
+    text-decoration: none;
+    color: black;
+    display:block;
+    margin-top: 20px;
+    font-size: 30px;
+}
+div.DP img{
+   width: 100%;
+}
+
+div.DP>img:hover{
+   transform: scale(1.5)
+}
+footer{
+    background-color:beige;
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    overflow: hidden;
+    clear: left;
+}
+
+footer h2{
+    background-color: black;
+}
+footer>ul{
+    list-style-type: none;
+}
+
+footer>ul>li>a{
+    text-decoration: none;
+    color:black;
+}
+footer img{
+    float: right;
+    width: 400px;
+    height: 200px;
+    padding: 5px;
+    margin: 5px;
+}
+section.TH img{
+    width: 550px;
+    height: 500x;
+
+}
+div.rev{
+    padding: 5px;
+    margin: 5px;
+    font-size: 25px;
+}
+section.TH{
+    display: flex;
+    padding: 5px;
+    margin: 20px;
+}
+div.left{
+    width: 300px;
+    height: 300px;
+}
+.flex{
+    display: flex;
+}
+
+section.content > div {
+    width: 50%;
+    height: 100%;
+    margin: 20px;
+}
+
+.left img {
+    width: 100%;
+    margin: 10px;
+}
+
+.thumbnail > div >img{
+    width: 100%;
+}
+.thumbnail > div{
+    margin: 2px;
+}
+
+div.buttons>img{
+    
+    width: 100px;
+    height: 100px;
+
+}
+div.review{
+    margin: 20px;
+    font-size: 25px;
+}
+.thumbnail img { 
+    cursor: pointer; 
+}
+  
+div.Quan{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+div.quan{
+    width: 25%;
+}
+.View{
+    width: 300px;
+    height: 300px;
+}
+div.quan img{
+    width: 100%;
+    height: 100%;
+}
+
+div.hinh1{
+    float: left;
+}
+div.title{
+    text-align: center;
+}
+div.title a{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+/*td>img{
+    width: 200px;
+    height: 200px;
+}
+table{
+    margin: 5px;
+    width: 100%;
+}*/
+div.hinh2>img{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    cursor: pointer;
+}
+section.left1{
+    width: 50%;
+    float: left;
+    margin: 5px;
+}
+div.title1>a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;;
+}
+section.left2{
+    width: 65%;
+    float: left;
+}
+
+div.title2{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+div.title2>a{
+    text-decoration: none;
+    color: black;
+}
+div.clip{
+    margin: 5px;
+    
+}
+
+
